@@ -14,4 +14,4 @@ RUN npm run build
 EXPOSE 30001
 
 # 프로덕션 실행
-CMD ["npm", "start"]
+CMD ["npm", "start", "--", "-p", "30001"]
